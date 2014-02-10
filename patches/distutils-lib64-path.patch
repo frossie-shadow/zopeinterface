@@ -1,0 +1,9 @@
+diff -ur zopeinterface-3.8.0.orig/setup.cfg zopeinterface-3.8.0/setup.cfg
+--- zopeinterface-3.8.0.orig/setup.cfg	2014-02-10 14:50:00.050844097 +0100
++++ zopeinterface-3.8.0/setup.cfg	2014-02-10 14:50:33.615599493 +0100
+@@ -3,3 +3,5 @@
+ tag_date = 0
+ tag_svn_revision = 0
+ 
++[install]
++install-platlib=$base/lib/python
